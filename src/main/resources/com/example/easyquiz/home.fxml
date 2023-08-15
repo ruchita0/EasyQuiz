@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="345.0" prefWidth="561.0" style="-fx-background-color: teal; -fx-background-radius: 32px; -fx-border-radius: 32px;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.easyquiz.HomeController">
+   <children>
+
+      <ChoiceBox fx:id="choiceBox" layoutX="149.0" layoutY="180.0" prefHeight="45.0" prefWidth="230.0" />
+
+      <Button fx:id="playquizbtn2" layoutX="141.0" layoutY="248.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="251.0" style="-fx-background-color: black; -fx-background-radius: 32px; -fx-border-radius: 32px;" text="PLAY QUIZ" textAlignment="RIGHT" textFill="WHITE">
+         <font>
+            <Font name="Open Sans Semibold" size="20.0" />
+         </font>
+      </Button>
+      <Label fx:id="userInputField" alignment="CENTER" layoutX="68.0" layoutY="31.0" prefHeight="56.0" prefWidth="404.0" style="-fx-background-color: black; -fx-background-radius: 32px; -fx-border-radius: 32px;" text="Label" textAlignment="CENTER" textFill="#f2eaea">
+      <font>
+         <Font name="Open Sans Semibold" size="25.0" />
+      </font>
+
+      </Label>
+
+      <Label alignment="CENTER" layoutX="140.0" layoutY="100.0" prefHeight="50.0" prefWidth="270.0" style="-fx-background-radius: 32px; -fx-border-radius: 32px; -fx-background-color: black;" text="SELECT ONE SUBJECT :-" textAlignment="CENTER" textFill="#fcfcfc">
+      <font>
+         <Font name="Open Sans Semibold" size="16.0" />
+      </font>
+      </Label>
+
+
+
+   </children>
+</Pane>
